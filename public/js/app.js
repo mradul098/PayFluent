@@ -1,6 +1,4 @@
-// CODE EXPLAINED channel
 
-//select the elements
 
 
 let LIST=[],id=0; //LIST ke andar saara data rakghenge and id will be used to give every task an id
