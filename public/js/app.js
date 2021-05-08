@@ -143,7 +143,7 @@ add.addEventListener("click",function(event){
 
 var data = {
     //"documentTitle": "RECEIPT", //Defaults to INVOICE
-    "currency": "USD",
+    "currency": "INR",
     "taxNotation": "gst", //or gst
     "marginTop": 25,
     "marginRight": 25,
