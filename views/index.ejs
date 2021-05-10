@@ -9,22 +9,41 @@
     <title>PayFluent</title>
     <script src="https://kit.fontawesome.com/9277cc4364.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/easyinvoice/dist/easyinvoice.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 <body>
     <div class="container">
+        <input type="text" id="ccomp" class="ipts" placeholder="Consumer Company">
+        <input type="text" id="cadd" class="ipts" placeholder="Consumer Address">
+        <input type="text" id="czco" class="ipts" placeholder="Zip code">
+        <input type="text" id="ccty" class="ipts" placeholder="City">
+        <input type="text" id="cctry" class="ipts" placeholder="Country"><br>
+        <input type="text" id="mcomp" class="ipts" placeholder="Merchant Company">
+        <input type="text" id="madd" class="ipts" placeholder="Merchant Address">
+        <input type="text" id="mzco" class="ipts" placeholder="Zip code">
+        <input type="text" id="mcty" class="ipts" placeholder="City">
+        <input type="text" id="mctry" class="ipts" placeholder="Country">
+        <input type="text" id="gst" class="ipts" placeholder="GST">
+        <!-- "company": "Michael Scott",
+        "address": "Dunder Mifflin",
+        "zip": "4567 CD",
+        "city": "Scranton",
+        "country": "USA" -->
         <div class="header">
             <div class="clear">
                 <i class="fa fa-refresh"></i>
             </div>
-            <div id="date">23</div>
+            <div id="date"></div>
         </div>
 
-
+        
         <div class="content">
             <ul id="list">
                 <li class="item">
+                    
                     <!-- now ye agli teen lines is like the sample .. we have checked ok its looking good but now need the functionality -->
                     <!-- dont worry is list ke andar ke kaam js handle kar rha hai faltu me khali nahi padi hai -->
                     <!-- <i class="fa fa-check-circle co" job="complete" id="0"></i>
@@ -44,7 +63,7 @@
         <input type="text" id="pquantity" class="ipt" placeholder="Quantity">
     </div>
 
-    <button class="generate" onclick="downloadInvoice()">Generate Bill</button>
+    <button class="generate btn btn-primary" onclick="downloadInvoice()">Generate Bill</button>
 
 </body>
 

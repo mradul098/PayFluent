@@ -66,8 +66,8 @@ body{
 }
 .item{
     width:380px;
-    height: 45px;
-    min-height: 45px;
+    height: 35px;
+    min-height: 25px;
     position: relative;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     list-style: none;
@@ -93,7 +93,7 @@ body{
     margin:0;
     font-size: 20px;
     left:50px;
-    top:5px;
+    top:0px;
     background-color: #FFF;
     max-width:285px;
 }
@@ -105,7 +105,7 @@ body{
     position: absolute;
     font-size: 25px;
     right:15px;
-    top:10px;
+    top:2px;
 }
 .item i.de:hover{
     color:#af0000;
@@ -114,7 +114,7 @@ body{
 /* ------------ add item ------------ */
 .add-to-do{
     position: relative;
-    width: 360px;
+    width: 380px;
     height:40px;
     background-color: #FFF;
     padding: 10px;
@@ -166,7 +166,7 @@ body{
     /* position: absolute; */
     left: 50px;
     height: 35px;
-    width: 368px;
+    width: 380px;
     background-color: white;
     border: none;
     font-size: 20px;
@@ -175,14 +175,22 @@ body{
 
 .generate{
     position: absolute;
-    margin-left: 40%;
-    font-size: 40px;
-    color: #0931fa;
-    background-color: white;
-    border-radius: 4%;
+    margin-left: 568px;
+   
 }
 
-
+.ipts{
+    /* position: absolute; */
+    /* left: 50px; */
+    height: 20px;
+    width: 170px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    padding-left:10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
 
 
 
